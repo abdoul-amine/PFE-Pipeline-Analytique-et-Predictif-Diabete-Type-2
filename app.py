@@ -1,12 +1,5 @@
 # app.py – Dashboard Streamlit PFE Diabète Type 2
-# Institut Pasteur du Maroc – Casablanca & Jadida
 # Exécution : streamlit run app.py
-#
-# FICHIERS REQUIS (même dossier que app.py) :
-#   Mode rapide : diabete_dashboard_ready.csv + Tableaux_complets_PFE_v2.xlsx (7 feuilles)
-#                 + images PNG générées par le pipeline
-#   Mode auto   : fichier Excel brut (4 feuilles JM/CM/JT/CT)
-
 import streamlit as st
 import pandas as pd
 import numpy as np
