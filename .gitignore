@@ -1,0 +1,28 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks - checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Fichiers temporaires
+*.tmp
+*.log

@@ -1,0 +1,123 @@
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║      RAPPORT PRÉLIMINAIRE D'AVANCEMENT – PROJET DE FIN D'ÉTUDES (PFE)    ║
+║   Conception d'un pipeline analytique pour l'identification des facteurs  ║
+║   de risque environnementaux du Diabète de Type 2                         ║
+║   Institut Pasteur du Maroc – Casablanca & Jadida                         ║
+║                             Date : 28/06/2026                                 ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. DESCRIPTION DE LA POPULATION  (Tableau 1)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Effectif total : 1203 patients
+    • Malades  : 746 (62.0%)
+    • Témoins  : 457 (38.0%)
+
+  Caractéristiques clés :
+    • Âge moyen  – Malades : 57.3 ans | Témoins : 42.9 ans  (p < 0,001)
+      → Différence de 14.4 ans : les malades sont significativement plus âgés.
+    • Sexe féminin (Malades) : 86.5%
+    • Ville : Casablanca (Malades) : 43.3%  → facteur géographique significatif
+    • IMC moyen (kg/m²) – Malades : 30.4  |  Témoins : 28.9  (p < 0,001)
+      → Les malades présentent un IMC plus élevé, confirmant le rôle du surpoids/obésité.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. PRÉVALENCE DES FACTEURS ENVIRONNEMENTAUX  (Tableau 2)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  24 facteurs environnementaux analysés.
+  Top 5 expositions chez les Malades :
+    • Légumes                             : 87.9%   (Témoins : 94.5%)
+    • Céréales                            : 85.8%   (Témoins : 91.5%)
+    • Thé                                 : 82.8%   (Témoins : 90.2%)
+    • Poulet                              : 78.4%   (Témoins : 90.8%)
+    • Fruits                              : 75.1%   (Témoins : 84.2%)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. FACTEURS DE RISQUE ENVIRONNEMENTAUX  (Tableaux 3 et 4)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  3.1  Analyse univariée (OR bruts, Test exact de Fisher)
+       20/24 variables significatives (p < 0,05)
+       • Sucreries                           OR = 0.08 (0.06–0.11)  (p = ≤ 0,001)
+       • Fruits secs                         OR = 0.21 (0.16–0.27)  (p = ≤ 0,001)
+       • Pâtes / Féculents                   OR = 0.42 (0.33–0.54)  (p = ≤ 0,001)
+       • Produits riches en MG               OR = 0.44 (0.34–0.56)  (p = ≤ 0,001)
+       • Poulet                              OR = 0.37 (0.26–0.53)  (p = ≤ 0,001)
+       • Activité physique                   OR = 1.94 (1.52–2.48)  (p = ≤ 0,001)
+       • Œufs                                OR = 0.52 (0.40–0.67)  (p = ≤ 0,001)
+       • Soupe                               OR = 0.57 (0.45–0.72)  (p = ≤ 0,001)
+
+  3.2  Analyse multivariée (OR ajustés sur âge et sexe)
+       8/24 variables significatives après ajustement (p < 0,05)
+       • Sucreries                           ORa = 0.11 (0.08–0.15)  (p = ≤ 0,001)
+       • Fruits secs                         ORa = 0.29 (0.22–0.39)  (p = ≤ 0,001)
+       • Produits riches en MG               ORa = 0.56 (0.41–0.74)  (p = ≤ 0,001)
+       • Pâtes / Féculents                   ORa = 0.57 (0.43–0.75)  (p = ≤ 0,001)
+       • Activité physique                   ORa = 1.77 (1.32–2.38)  (p = ≤ 0,001)
+       • Boissons énergétiques               ORa = 0.59 (0.37–0.93)  (p = 0.024)
+       • Poulet                              ORa = 0.65 (0.42–0.98)  (p = 0.042)
+       • Œufs                                ORa = 0.74 (0.55–1.00)  (p = 0.048)
+
+  ⚠️  Note : Les OR < 1 pour les aliments (sucreries, graisses...) s'expliquent
+      par un biais de causalité inverse : les malades déjà diagnostiqués ont
+      modifié leurs habitudes alimentaires après le diagnostic. L'Activité physique
+      (ORa > 1) est le seul facteur comportemental avec une direction attendue
+      (sédentarité → risque accru de DT2).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. CARACTÉRISTIQUES MÉDICALES DES MALADES  (Tableau 5)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    • Durée moyenne du diabète : 9.0 ± 7.5 ans  (n=702)
+    • HbA1c moyen              : 9.2 ± 2.4%  (n=501)
+      → 81.0% des malades ont un contrôle glycémique insuffisant (HbA1c > 7%)
+    • IMC moyen chez malades   : 30.4 kg/m²  → surpoids/obésité majoritaire
+    • TA systolique moy.       : 135 mmHg
+    • Hypertension déclarée    : 29.8%
+    • Dyslipidémie             : 20.0%
+    • Hérédité du diabète      : 55.5%
+    • Stress / Anxiété         : 78.4%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. COMPLICATIONS CHRONIQUES DU DIABÈTE  (Tableau 6)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    • Complications cardiovasculaires               : 57 (7.6%)
+    • Rétinopathie diabétique                       : 119 (16.0%)
+    • Néphropathie / Insuffisance rénale            : 34 (4.6%)
+    • Neuropathie diabétique                        : 28 (3.8%)
+    • Pied diabétique                               : 22 (2.9%)
+    • Troubles psychologiques (stress/anxiété)      : 584 (78.4%)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. ANALYSE EN COMPOSANTES PRINCIPALES  (ACP exploratoire)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    • 24 variables environnementales binaires analysées
+    • Variance expliquée : PC1 = 21.1%  |  PC2 = 8.9%  |  Total = 29.9%
+    • La projection montre une séparation partielle entre Malades et Témoins,
+      confirmant que les profils alimentaires/comportementaux diffèrent entre
+      les deux groupes, sans toutefois constituer une séparation nette
+      (variance cumulée modeste, typique des données binaires d'enquête).
+    • Note : Pour les variables binaires, une ACM (Analyse des Correspondances
+      Multiples) serait statistiquement plus rigoureuse. L'ACP reste acceptable
+      à titre exploratoire.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. FICHIERS GÉNÉRÉS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    📊 Excel  : Tableaux_complets_PFE_v2.xlsx (7 feuilles)
+                  T1 – Caractéristiques générales (Malades vs Témoins)
+                  T2 – Prévalence des facteurs environnementaux
+                  T3 – OR bruts (univarié)
+                  T4 – OR ajustés (multivarié)
+                  T5 – Caractéristiques médicales des malades
+                  T6 – Complications chroniques du diabète
+                  T7 – Stratification par ville (sexe et ville)
+
+    🖼️  Images :
+                  graphiques_descriptifs_complets.png
+                  forest_plot_OR_ajustes.png
+                  ACP_complet.png
+                  heatmap_facteurs_env.png
+                  missing_values_plot.png
+                  shap_summary.png
+
+    📄 Rapport : mini_rapport_PFE_20260628.txt

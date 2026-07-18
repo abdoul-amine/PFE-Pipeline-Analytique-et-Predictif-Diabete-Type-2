@@ -1,0 +1,6 @@
+Modèle,Accuracy,AUC-ROC,Précision (Malade),Rappel (Malade),F1-Score (Malade)
+Random Forest,0.876,0.932,0.905,0.893,0.899
+SVM,0.859,0.931,0.914,0.852,0.882
+XGBoost,0.834,0.919,0.910,0.812,0.858
+Gradient Boosting,0.842,0.914,0.899,0.839,0.868
+KNN,0.830,0.904,0.865,0.859,0.862
